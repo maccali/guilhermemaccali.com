@@ -6,6 +6,7 @@
 
 
     <?php get_template_part('components/sobre')?>
+    <?php get_template_part('components/contato')?>
 
 
 

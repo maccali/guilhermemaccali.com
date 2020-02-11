@@ -1,6 +1,6 @@
-<div class="container-fluid menu">
+<div class="container-fluid menu fixed">
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand" href="#">
                 <img src="<?php echo get_template_directory_uri() . '/img/logo.png' ?>" alt="">
             </a>
