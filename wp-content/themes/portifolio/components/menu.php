@@ -21,25 +21,3 @@
 
 
 
-
-<!-- 
-<div class="container-full menu">
-    <div class="container">
-        <div class="menu-container">
-            <div class="logo">
-                <img class="menu-logo" src="<?php echo get_template_directory_uri() . '/img/logo.png' ?>" alt="">
-            </div>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <nav>
-                <a class="link" href="#">Trabalhos</a>
-                <a class="link" href="#">Sobre</a>
-                <a class="link" href="#">Contato</a>
-            </nav>
-            <label class="menu-icon" for="menu-btn"><i class="fas fa-bars"></i></label>
-        </div>
-    </div>
-</div>   -->
-
-
-
-
