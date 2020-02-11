@@ -21,6 +21,9 @@ a{
 .container-fluid.secondary{
     background-color: #B0CDD9;
 }
+.container-fluid.social{
+    background-color: gainsboro;
+}
 
 .navbar{
     display: flex;
@@ -79,6 +82,23 @@ a{
 
 .navbar.navbar-expand-lg{
     padding: 0;
+}
+
+.redessociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+}
+
+.redessociais a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.redessociais a i{
+    font-size: 22px;
+    color: #1b1b1b;
 }
 
 
