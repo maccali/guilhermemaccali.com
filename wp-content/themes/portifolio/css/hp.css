@@ -64,6 +64,20 @@ p{
     background-color: var(--primary-color);
 }
 
+.container-fluid.footer{
+    background-color: var(--primary-color);
+}
+
+.dedicatoria p{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: #ffffff;
+}
+.dedicatoria p i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .container-fluid.primary{
     background-color: #F2F2F2;
 }

@@ -76,7 +76,7 @@
                 </div>
                 <div class="row">    
                     <div class="col-12 titulo-sessao">
-                        <h6><b>ou mandando para o seguinte endereço:</b></h6>
+                        <h6><b>Ou mandando para o seguinte endereço:</b></h6>
                     </div>
                     
                     <div class="cont-social-grande">
