@@ -78,6 +78,7 @@ p{
     margin-right: 5px;
 }
 
+
 .container-fluid.primary{
     background-color: #F2F2F2;
 }
@@ -157,6 +158,24 @@ p{
 .redessociais a i{
     font-size: 22px;
     color: #1b1b1b;
+    transition: all .2s;
+}
+
+.redessociais a i:hover {
+    transform: scale(1.3);
+}
+
+.redessociais a i.fab.fa-github:hover{
+    color: var(--github-color);
+}
+.redessociais a i.fab.fa-linkedin:hover{
+    color: var(--linkedin-color);
+}
+.redessociais a i.fab.fa-facebook:hover{
+    color: var(--facebook-color);
+}
+.redessociais a i.fab.fa-instagram-square:hover{
+    color: var(--instagram-color);
 }
 
 .cont-eu-img{
@@ -342,8 +361,28 @@ p{
         margin: 0 !important;
         padding: 10px !important;
     }    
+
+    .cont-eu-img{
+        max-width: 250px
+    }
+
  }
 
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) {
+    .redessociais {
+        margin-top: 65px;
+    }
+
+    .menu {
+        margin-top: -65px;
+    }
+    .cont-eu-img{
+        margin: auto;
+        max-width: 325px
+    }
+    .eu-img{
+        margin-bottom: 40px;
+    }
+}
 
 @media (max-width: 1199.98px) { }

@@ -15,6 +15,10 @@
 <!-- CLIPBOARD -->
 <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 
+<!-- JQUARY -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
 
 
 <script>
@@ -34,6 +38,20 @@
   clip.on("error", function() {
     $('#email-tost-errado').toast('show')
   });
+
+  $('nav div ul li a[href^="#"]').on('click', function(e) {
+	  e.preventDefault();
+
+    console.log('oi')
+
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+        
+    $('html, body').animate({ 
+      scrollTop: targetOffset - 50
+    }, 500);
+});
+
 
 </script>
 </body>

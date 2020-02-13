@@ -1,4 +1,4 @@
-<div class="container-fluid primary">
+<div id="sobre" class="container-fluid primary">
     <div class="container padding-container">
         <div class="row">
             <div class="col-12 titulo-sessao">

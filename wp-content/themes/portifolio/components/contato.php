@@ -1,4 +1,4 @@
-<div class="container-fluid socondary">
+<div id="contato" class="container-fluid socondary">
     <div class="container padding-container">
         <div class="row">
             <div class="col-12 titulo-sessao">
