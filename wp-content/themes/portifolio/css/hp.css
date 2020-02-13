@@ -2,7 +2,12 @@
 
 :root{
     --primary-color: #0e2c54;
+    --github-color: #333;
+    --linkedin-color: #0e76a8;
+    --facebook-color: #3b5998;
+    --whatapp-color: #25d366;
 }
+
 
 *{
     margin: 0;
@@ -18,10 +23,14 @@ a{
 h2{
     margin-bottom: 30px;
 }
+h6{
+    margin-bottom: 25px !important;
+}
 
 p{
     font-size: 15px;
 }
+
 .fixed{
     position: fixed !important;
     z-index: 1 !important;  
@@ -183,7 +192,63 @@ p{
     font-weight: bold;
     text-transform: uppercase;
 }
+.cont-social-grande{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.cont-social-grande a i{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #1b1b1b;
+}
 
+.cont-social-grande a{
+    transition: all .2s;
+}
+.cont-social-grande a:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+
+.cont-social-grande a i.fab.fa-github{
+    color: var(--github-color);
+}
+.cont-social-grande a i.fab.fa-linkedin{
+    color: var(--linkedin-color);
+}
+.cont-social-grande a i.fab.fa-facebook{
+    color: var(--facebook-color);
+}
+.cont-social-grande a i.fas.fa-envelope{
+    color: var(--primary-color);
+}
+.cont-social-grande a i.fab.fa-whatsapp-square{
+    color: var(--whatapp-color);
+}
+
+.card-social {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.form-control {
+    border-radius: 12px;
+    height: 45px;
+    border: solid 1px #a9a9a9;
+}
+.form-control::placeholder{
+    color: #d8d8d8;
+}
+.form-group label{
+    font-weight: bold;
+}
+.form-group label span{
+    color: rgb(206, 1, 1);
+}
 
 @media (max-width: 575.98px) { }
 
