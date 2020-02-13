@@ -5,6 +5,7 @@
     </div>
 
     <?php get_template_part('components/sobre')?>
+    <?php get_template_part('components/curriculo')?>
     <?php get_template_part('components/contato')?>
     <?php get_template_part('components/toast')?>
 

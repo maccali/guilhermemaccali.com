@@ -5,6 +5,8 @@
 </div>
 
 
-<!-- <div id="email-tost-errado" class="toast errado" role="alert" aria-live="assertive" aria-atomic="true">
-    Ocorreu um erro ao copiar o email para a área de tranferencia.
-</div> -->
+<div id="email-tost-errado" class="toast errado" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="aviso errado">
+        <span>Erro ao copiar o email</span>
+    </div>
+</div>

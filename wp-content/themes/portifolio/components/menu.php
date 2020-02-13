@@ -11,8 +11,8 @@
                 <ul class="navbar-nav">
                     <!-- active -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Trabalhos</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="#contato">Contato</a></li>
                 </ul>
             </div>
         </nav>

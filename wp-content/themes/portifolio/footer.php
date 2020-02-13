@@ -39,7 +39,7 @@
     $('#email-tost-errado').toast('show')
   });
 
-  $('nav div ul li a[href^="#"]').on('click', function(e) {
+  $('.to-croll[href^="#"]').on('click', function(e) {
 	  e.preventDefault();
 
     console.log('oi')

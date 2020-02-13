@@ -60,7 +60,7 @@
             <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-12 titulo-sessao">
-                        <h6><b>Ou mandar um email direto clicando no botão</b></h6>
+                        <h6><b>Ou mandar um email direto clicando no botão:</b></h6>
                     </div>
                 </div>
                 

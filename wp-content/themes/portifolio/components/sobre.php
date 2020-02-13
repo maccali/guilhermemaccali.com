@@ -27,7 +27,7 @@
                         </p>
                     </div>
                 </div>
-                <a href="" class="btn btn-primary" >Entre em contato</a>
+                <a href="#contato" class="btn btn-primary to-croll" >Entre em contato</a>
             </div>
         </div>
     </div>
