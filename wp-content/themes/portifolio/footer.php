@@ -12,12 +12,29 @@ footer
 <!-- TINYSLIDER -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
+<!-- CLIPBOARD -->
+<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+
+
+
 <script>
-  var slider = tns({
-    container: '.my-slider',
-    items: 1,
+  // var slider = tns({
+  //   container: '.my-slider',
+  //   items: 1,
     
+  // });
+
+  bootstrap.Toast.Default.delay = 5000;
+
+  var clip = new ClipboardJS('.copy');
+
+  clip.on("success", function() {
+    $('#email-tost-certo').toast('show')
   });
+  clip.on("error", function() {
+    $('#email-tost-errado').toast('show')
+  });
+
 </script>
 </body>
 </html>

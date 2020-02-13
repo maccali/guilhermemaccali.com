@@ -6,6 +6,7 @@
     --linkedin-color: #0e76a8;
     --facebook-color: #3b5998;
     --whatapp-color: #25d366;
+    --instagram-color: #C13584;
 }
 
 
@@ -170,7 +171,14 @@ p{
     justify-content: center;
     
 }
+.titulo-sessao h6{
+    text-align: center;
+}
 
+.email-label{
+    font-size: 17px;
+    font-weight: bold;
+}
 
 .sobre-texto{
     margin-bottom: 35px;
@@ -225,6 +233,9 @@ p{
 .cont-social-grande a i.fab.fa-whatsapp-square{
     color: var(--whatapp-color);
 }
+.cont-social-grande a i.fab.fa-instagram-square{
+    color: var(--instagram-color);
+}
 
 .card-social {
     display: flex;
@@ -233,6 +244,46 @@ p{
     justify-content: center;
 }
 
+.toast{
+    position: fixed;
+    bottom: 50px;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    margin-left: -100px;
+    -webkit-box-shadow: 0px 0px 52px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 52px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 52px 0px rgba(0,0,0,0.41);
+}
+
+.toast .aviso{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-content: center !important;
+    align-items: center;
+    border-radius: 0px;
+}
+
+.toast .aviso span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    /* margin-top: -5px; */
+}
+
+.toast .aviso.certo{
+    background-color: var(--success) !important;
+    border-left: 5px solid #11461d;
+    border-right: 5px solid #11461d;
+}
+
+.toast .aviso.errado{
+    background-color: var(--danger) !important;
+    border-left: 5px solid #6b1a22;
+    border-right: 5px solid #6b1a22;
+}
 
 
 .form-control {

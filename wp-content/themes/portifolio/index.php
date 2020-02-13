@@ -4,11 +4,8 @@
         <!-- <?php get_template_part('components/gridnav')?> -->
     </div>
 
-
     <?php get_template_part('components/sobre')?>
     <?php get_template_part('components/contato')?>
+    <?php get_template_part('components/toast')?>
 
-
-
-	<p>index</p>   
 <?php get_footer();
