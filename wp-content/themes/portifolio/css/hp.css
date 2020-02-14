@@ -38,6 +38,12 @@ p{
     margin-top: -75px;
 }
 
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .btn.btn-primary{
     background-color: var(--primary-color);
     border: 2px transparent solid;
@@ -93,8 +99,6 @@ p{
 
 .container-fluid.curriculo{
     background-color: #f7f7f7;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .navbar{
@@ -239,7 +243,7 @@ p{
     text-indent: 1.5em;
     text-align: justify;
 }
-.sobre-texto .resto-texto p::first-letter{
+.first-letter p::first-letter{
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -344,6 +348,70 @@ p{
 .form-group label span{
     color: rgb(206, 1, 1);
 }
+
+
+.texto-curriculo{
+    margin-bottom: 40px;
+}
+
+.texto-curriculo p{
+    text-align: center;
+}
+
+
+#skils{
+    display: flex !important;
+}
+
+.padding-top-extra{
+    padding-top: 65px;
+}
+
+.padding-botton-extra{
+    padding-bottom: 65px;
+}
+
+#skils img{
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+.container-fluid.invi{
+    margin-bottom: -75px;
+    margin-top: -75px;
+}
+
+#skils-controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+#skils-controls div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #f7f7f7 solid 1px;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -90px;
+}
+
+#skils-controls div i{
+    color: rgb(99, 99, 99);
+}
+
+#skils-controls div.prev{
+    border-radius: 50% 0 0 50%;
+    margin-left: 10px;
+}
+
+#skils-controls div.next{
+    border-radius: 0 50% 50% 0;
+    margin-right: 10px;
+}
+
 
 @media (max-width: 575.98px) { }
 

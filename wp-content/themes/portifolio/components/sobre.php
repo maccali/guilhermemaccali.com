@@ -1,5 +1,5 @@
-<div id="sobre" class="container-fluid primary">
-    <div class="container padding-container">
+<div id="sobre" class="container-fluid primary padding-botton-extra">
+    <div class="container padding-container ">
         <div class="row">
             <div class="col-12 titulo-sessao">
                 <h2>Sobre</h2>
@@ -14,7 +14,7 @@
                 <div class="sobre-texto">
                     <p class="intro"><b>Seja Bem-Vindo!</b>Meu nome é,</p>
                     <h3 class="nome">Guilherme Maccali</h3>
-                    <div class="resto-texto">
+                    <div class="resto-texto first-letter">
                         <p>
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
                             Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
