@@ -5,7 +5,7 @@
                 <h2>Sobre</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row margin-bottom-60">
             <div class="col-12 col-md-4">
             <div class="cont-eu-img">
                 <img class="eu-img" src="<?php echo get_template_directory_uri() . '/img/eu.jpg' ?>" alt=""></div>

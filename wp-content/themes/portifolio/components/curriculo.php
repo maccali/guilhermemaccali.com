@@ -2,7 +2,7 @@
     <div class="container padding-container">
         <div class="row">
             <div class="col-12 titulo-sessao">
-                <h2>Habilidades e Carreira</h2>
+                <h2>Trajetória & Carreira</h2>
             </div>
         </div>
         <div class="row">

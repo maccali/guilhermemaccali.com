@@ -28,12 +28,12 @@ h6{
 }
 
 p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .fixed{
     position: fixed !important;
-    z-index: 1 !important;  
+    z-index: 10000 !important;  
     margin-top: -75px;
 }
 
@@ -356,20 +356,24 @@ p{
 }
 
 .padding-top-extra{
-    padding-top: 110px;
+    padding-top: 190px;
 }
 
 .padding-botton-extra{
-    padding-bottom: 95px;
+    padding-bottom: 170px;
 }
 
 .container-fluid.invi{
     margin-bottom: -95px;
-    margin-top: -100px;
+    margin-top: -195px;
+}
+
+.margin-bottom-60{
+    margin-bottom: 60px;
 }
 
 #skils div {
-    height: 180px;
+    height: 195px;
 }
 
 #skils .owl-stage-outer{
@@ -386,6 +390,16 @@ p{
     -webkit-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
     -moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
     box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
+}
+#skils .owl-stage-outer .owl-stage .owl-item div p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+#skils .owl-stage-outer .owl-stage .owl-item div p::first-letter{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #skils .owl-nav{

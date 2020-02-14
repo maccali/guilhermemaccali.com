@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6">
                 <div class="row">
                     <div class="col-12 titulo-sessao">
                         <h6><b>Você pode me seguir ou conversar comigo em alguma delas: </b></h6>
@@ -39,8 +39,8 @@
                 </div>
 
                 
-            </div>
-            <div class="col-12 col-md-4">
+        </div>
+        <div class="col-12 col-md-6">
             <div class="row">
                     <div class="col-12 titulo-sessao">
                         <h6><b>Mandar mensagens para mim no Whatsapp:</b></h6>
@@ -57,7 +57,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            
+            
+            <div class="col-12 col-md-6">
                 <div class="row">
                     <div class="col-12 titulo-sessao">
                         <h6><b>Ou mandar um email direto clicando no botão:</b></h6>
@@ -74,6 +76,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            
+            <div class="col-12 col-md-6">
                 <div class="row">    
                     <div class="col-12 titulo-sessao">
                         <h6><b>Ou mandando para o seguinte endereço:</b></h6>
@@ -97,8 +102,29 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 </div> 
