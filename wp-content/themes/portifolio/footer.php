@@ -1,6 +1,6 @@
 <?php ?>
 
-<?php wp_footer(); ?>
+
 
 <?php get_template_part('components/footer')?>
 
@@ -19,27 +19,55 @@
 <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
 
-
+<?php wp_footer(); ?>
 
 
 
 <script>
-  var slider = tns({
-    container: '#skils',
-    loop: true,
-    nav: false,
-    fixedWidth: 150,
-    // gutter: 40,
-    edgePadding: 0,
-    autoplay: true,
-    mouseDrag: true,
-    lazyload: true,
-    speed: 400,
-    autoplayButtonOutput: false,
-    slideBy: 'page',
-    controlsContainer: "#skils-controls",
-    items: 5,
+  // var slider = tns({
+  //   container: '#skils',
+  //   loop: true,
+  //   nav: false,
+  //   fixedWidth: 150,
+  //   // gutter: 40,
+  //   edgePadding: 0,
+  //   autoplay: true,
+  //   mouseDrag: true,
+  //   lazyload: true,
+  //   speed: 400,
+  //   autoplayButtonOutput: false,
+  //   slideBy: 'page',
+  //   controlsContainer: "#skils-controls",
+  //   items: 5,
     
+  // });
+  $(document).ready(function(){
+    $("#skils").owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: false,
+      loop: true,
+      center: true,
+      margin: 40,
+      responsiveClass: true,
+      dots: false,
+      nav: true, 
+      scrollPerPage: true,
+      slideBy: 2,
+      responsive:{
+          0:{
+              items:1,
+          },
+          600:{
+              items:3,
+          },
+          1000:{
+              items:6,
+              slideBy: 5,
+              // loop:true
+          }
+      }
+    });
   });
 
   bootstrap.Toast.Default.delay = 5000;

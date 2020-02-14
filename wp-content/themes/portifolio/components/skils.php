@@ -1,34 +1,21 @@
 <div class="container-fluid invi">
     <div class="container">
-        <div id="skils" class="my-slider">
-            <!-- <div><img src="https://picsum.photos/150" alt=""></div>
+        <div id="skils" class="owl-carousel">
             <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div>
-            <div><img src="https://picsum.photos/150" alt=""></div> -->
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-            <img src="https://picsum.photos/150" alt="">
-        </div>
-        <div class="controls" id="skils-controls" aria-label="Carousel Navigation" tabindex="0">
-            <div class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
-                <!-- <i class="fas fa-angle-left fa-5x"></i> -->
-                <i class="fas fa-chevron-left fa-1x"></i>
-                
-            </div>
-            <div class="next" data-controls="next" aria-controls="customize" tabindex="-1">
-                <!-- <i class="fas fa-angle-right fa-5x"></i>           -->
-                <i class="fas fa-chevron-right fa-1x"></i>
-            </div>
-        </div>
-        
+            <div><img src="https://i.picsum.photos/id/717/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/735/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/272/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/273/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/274/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/275/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/276/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/277/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/278/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/279/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/280/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/281/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/282/150/150.jpg" alt=""></div>
+            <div><img src="https://i.picsum.photos/id/283/150/150.jpg" alt=""></div>
+         </div>
     </div>
 </div> 
