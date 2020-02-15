@@ -4,6 +4,9 @@
         <!-- <?php get_template_part('components/gridnav')?> -->
     </div>
 
+
+    <!-- <?php var_dump(get_field("habilidades"));?> -->
+    
     <?php get_template_part('components/sobre')?>
     <?php get_template_part('components/skils')?>
     <?php get_template_part('components/curriculo')?>

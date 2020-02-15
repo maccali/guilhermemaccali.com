@@ -24,28 +24,12 @@
 
 
 <script>
-  // var slider = tns({
-  //   container: '#skils',
-  //   loop: true,
-  //   nav: false,
-  //   fixedWidth: 150,
-  //   // gutter: 40,
-  //   edgePadding: 0,
-  //   autoplay: true,
-  //   mouseDrag: true,
-  //   lazyload: true,
-  //   speed: 400,
-  //   autoplayButtonOutput: false,
-  //   slideBy: 'page',
-  //   controlsContainer: "#skils-controls",
-  //   items: 5,
-    
-  // });
+
   $(document).ready(function(){
     $("#skils").owlCarousel({
       autoplay: true,
       autoplayTimeout: 5000,
-      autoplayHoverPause: false,
+      autoplayHoverPause: true,
       loop: true,
       center: true,
       margin: 40,
