@@ -239,6 +239,15 @@ p{
     text-indent: 1.5em;
     text-align: justify;
 }
+
+.sobre-texto .resto-texto p a{
+    color: #004aad;
+}
+.sobre-texto .resto-texto p a:hover{
+    text-decoration: none;
+    color: #005cd4;
+}
+
 .first-letter p::first-letter{
     font-size: 24px;
     font-weight: bold;

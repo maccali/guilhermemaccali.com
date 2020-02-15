@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="btn-center">
-                    <a href="https://drive.google.com/file/d/1WwtlWaq7_Vw51vvIazElYmfl1Ld12Yn1" target="_blank" class="btn btn-primary to-croll" >Ver meu currículo</a>
+                    <a href="<?php echo $GLOBALS['cgv']['curriculo-link'] ?>" target="_blank" class="btn btn-primary to-croll" >Ver meu currículo</a>
                 </div>
             </div>
         </div>        

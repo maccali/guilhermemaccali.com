@@ -16,22 +16,22 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="card-social">
-                                <a href="https://www.linkedin.com/in/guilhermemaccali/" target="_blank"><i class="fab fa-linkedin"></i></a></br>
+                                <a href="<?php echo $GLOBALS['cgv']['linkedin'] ?>" target="_blank"><i class="fab fa-linkedin"></i></a></br>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="card-social">
-                                <a href="https://www.instagram.com/guilherme_maccali" target="_blank"><i class="fab fa-instagram-square"></i></i></a>
+                                <a href="<?php echo $GLOBALS['cgv']['instagram'] ?>" target="_blank"><i class="fab fa-instagram-square"></i></i></a>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="card-social">
-                                <a href="https://github.com/maccali" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="<?php echo $GLOBALS['cgv']['github'] ?>" target="_blank"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="card-social">
-                                <a href="https://www.facebook.com/guimaccali" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="<?php echo $GLOBALS['cgv']['facebook'] ?>" target="_blank"><i class="fab fa-facebook"></i></a>
                             </div>
                         </div>
                         
@@ -51,7 +51,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="card-social">
-                                <a href="https://api.whatsapp.com/send?phone=5551994700045&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20de%20seu%20site%2C%20pode%20me%20ajudar%3F" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                                <a href="<?php echo $GLOBALS['cgv']['whatsapp'] ?>" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                       
                         <div class="col-12">
                             <div class="card-social">
-                                <a href="mailto:guimaccali@gmail.com"><i class="fas fa-envelope"></i></a>
+                                <a href="mailto:<?php echo $GLOBALS['cgv']['email'] ?>"><i class="fas fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>
@@ -89,13 +89,13 @@
                         
                             <div class="col-12">
                                 <div class="card-social">
-                                    <p class="email-label">guimaccali@gmail.com</p>
+                                    <p class="email-label"><?php echo $GLOBALS['cgv']['email'] ?></p>
                                 </div>
                             </div>
                             
                             <div class="col-12">
                                 <div class="card-social">
-                                    <button class="btn btn-primary copy" data-clipboard-text="guimaccali@gmail.com">Copiar Email</button>
+                                    <button class="btn btn-primary copy" data-clipboard-text="<?php echo $GLOBALS['cgv']['email'] ?>">Copiar Email</button>
                                 </div>
                             </div>
                                     
