@@ -19,6 +19,9 @@
 <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
 
+<!-- GOOGLE ANALYTICS -->
+<?php echo $GLOBALS['cgv']['google-analytics'] ?>
+
 <?php wp_footer(); ?>
 
 
@@ -77,5 +80,7 @@
 
 
 </script>
+
+
 </body>
 </html>

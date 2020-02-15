@@ -81,6 +81,18 @@ p{
 .dedicatoria p i{
     margin-left: 5px;
     margin-right: 5px;
+    transition: all .2s;
+}
+.dedicatoria p i:hover{
+    transform: scale(1.5);
+}
+
+.dedicatoria p i.fa-heart:hover{
+    color: #e31b23;
+}
+
+.dedicatoria p i.fa-mug-hot:hover{
+    color: #6f4e37
 }
 
 .container-fluid.primary{
@@ -394,9 +406,17 @@ p{
     width: 150px !important;
     height: 150px !important;
 }
+
+#skils .owl-stage-outer .owl-stage .owl-item div{
+    transition: all .2s;
+}
+#skils .owl-stage-outer .owl-stage .owl-item div:hover{
+    transform: scale(1.05);
+}
+
 #skils .owl-stage-outer .owl-stage .owl-item div img{
     border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 12px -6px rgba(17, 13, 13, 0.39);
     -moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
     box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
 }
@@ -428,6 +448,17 @@ p{
     -webkit-box-shadow: 0px 0px 23px -6px rgba(0,0,0,0.39);
     -moz-box-shadow: 0px 0px 23px -6px rgba(0,0,0,0.39);
     box-shadow: 0px 0px 23px -6px rgba(0,0,0,0.39);
+    transition: all .2s;
+}
+
+#skils .owl-nav button:hover{
+    -webkit-box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
+}
+
+#skils .owl-nav button:focus{
+    outline: none;
 }
 
 #skils .owl-nav button span{
