@@ -19,6 +19,9 @@
 <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
 
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <!-- GOOGLE ANALYTICS -->
 <?php echo $GLOBALS['cgv']['google-analytics'] ?>
 
@@ -78,6 +81,7 @@
     }, 500);
 });
 
+AOS.init();
 
 </script>
 

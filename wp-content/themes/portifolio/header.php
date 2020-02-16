@@ -18,6 +18,9 @@
         
         <!-- TINYSLIDER -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+
+        <!-- AOS JS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <?php wp_head(); ?>
     </head>

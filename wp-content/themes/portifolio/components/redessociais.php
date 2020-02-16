@@ -1,6 +1,6 @@
 <div class="container-fluid social">
     <div class="container">
-        <div class="redessociais">
+        <div class="redessociais" data-aos="zoom-in">
 
             <a href="<?php echo $GLOBALS['cgv']['linkedin'] ?>" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="<?php echo $GLOBALS['cgv']['instagram'] ?>" target="_blank"><i class="fab fa-instagram-square"></i></a>
