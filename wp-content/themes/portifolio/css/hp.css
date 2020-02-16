@@ -109,6 +109,54 @@ p{
 .container-fluid.curriculo{
     background-color: #f7f7f7;
 }
+.container-fluid.pagina-vazia{
+    background-color: rgb(230, 230, 230);
+    height: calc( -193px + 100vh) !important;
+}
+.pagina-vazia .container{
+    height: 100%;
+}
+
+.corpo-vazio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.corpo-vazio{
+    width: 100%;
+    height: 100%;
+}
+.corpo-vazio .box-zero{
+    display: flex;
+    margin-top: -60vh;
+    width: 100%;
+    height: 40vh;
+}
+
+.corpo-vazio .box-zero div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 230, 230, 0.79);
+    width: 100%;   
+}
+
+.corpo-vazio .box-zero div h2{
+    margin-top: 5vh;
+    font-size: 14vh;
+    margin: 0;
+}
+
+.corpo-vazio .box-zero div p{
+    font-size: 2vh;
+}
+.corpo-vazio .box-zero div p::first-letter{
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
 
 .navbar{
     display: flex;
