@@ -32,7 +32,7 @@
 <script>
 
   $(document).ready(function(){
-    $("#skils").owlCarousel({
+    $(".skils").owlCarousel({
       autoplay: true,
       autoplayTimeout: 5000,
       autoplayHoverPause: true,

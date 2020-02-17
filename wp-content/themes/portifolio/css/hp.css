@@ -441,52 +441,52 @@ p{
     margin-bottom: 60px;
 }
 
-#skils div {
+.skils div {
     height: 195px;
 }
 
-#skils .owl-stage-outer{
+.skils .owl-stage-outer{
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
-#skils .owl-stage-outer .owl-stage .owl-item{
-    width: 150px !important;
-    height: 150px !important;
+.skils .owl-stage-outer .owl-stage .owl-item{
+    width: 120px !important;
+    height: 120px !important;
 }
 
-#skils .owl-stage-outer .owl-stage .owl-item div{
+.skils .owl-stage-outer .owl-stage .owl-item div{
     transition: all .2s;
 }
-#skils .owl-stage-outer .owl-stage .owl-item div:hover{
+.skils .owl-stage-outer .owl-stage .owl-item div:hover{
     transform: scale(1.05);
 }
 
-#skils .owl-stage-outer .owl-stage .owl-item div img{
-    border-radius: 25px;
-    -webkit-box-shadow: 0px 0px 12px -6px rgba(17, 13, 13, 0.39);
-    -moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
-    box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39);
+.skils .owl-stage-outer .owl-stage .owl-item div img{
+    border-radius: 25px !important;
+    -webkit-box-shadow: 0px 0px 12px -6px rgba(17, 13, 13, 0.39) !important;
+    -moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39) !important;
+    box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.39) !important;
 }
-#skils .owl-stage-outer .owl-stage .owl-item div p{
+.skils .owl-stage-outer .owl-stage .owl-item div p{
     text-align: center;
     margin-top: 5px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
-#skils .owl-stage-outer .owl-stage .owl-item div p::first-letter{
+.skils .owl-stage-outer .owl-stage .owl-item div p::first-letter{
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#skils .owl-nav{
+.skils .owl-nav{
     display: flex;
     height: 0;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     justify-content: center;
 }
 
-#skils .owl-nav button{
+.skils .owl-nav button{
     width: 30px;
     height: 30px;
     margin: 8px;
@@ -499,23 +499,23 @@ p{
     transition: all .2s;
 }
 
-#skils .owl-nav button:hover{
+.skils .owl-nav button:hover{
     -webkit-box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
 }
 
-#skils .owl-nav button:focus{
+.skils .owl-nav button:focus{
     outline: none;
 }
 
-#skils .owl-nav button span{
+.skils .owl-nav button span{
     font-size: 25px;
     line-height: 25px;
     color: #909090;
 }
 
-#skils .owl-dots .owl-dot.active span{
+.skils .owl-dots .owl-dot.active span{
     background: none repeat scroll 0 0 red ;
     
 }
