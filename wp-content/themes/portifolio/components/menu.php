@@ -9,7 +9,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" data-aos="fade-left">
-                    <!-- active -->
 
                     <?php $pageName  = get_the_title()?>
                     <?php ($pageName == 'home') ? $linkSobre = '#sobre' : $linkSobre = get_home_url() . '/#sobre'?>
