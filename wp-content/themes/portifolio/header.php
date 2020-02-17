@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(). '/img/favicon.ico'?>" />
 
-        <?php (get_field('title', get_the_ID()) == '') : $pageTitle = '404' : $pageTitle = get_field('title', get_the_ID())?>
+        <?php (get_field('title', get_the_ID()) == '') ? $pageTitle = '404' : $pageTitle = get_field('title', get_the_ID())?>
 
         <title><?php echo $pageTitle ?></title>
 
