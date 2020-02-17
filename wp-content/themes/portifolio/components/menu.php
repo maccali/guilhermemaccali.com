@@ -10,9 +10,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" data-aos="fade-left">
                     <!-- active -->
-                    <!-- <li class="nav-item"><a class="nav-link" href="#">Trabalhos</a></li> -->
-                    <li class="nav-item"><a class="nav-link to-croll" href="#sobre">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link to-croll" href="#contato">Contato</a></li>
+
+                    <?php $pageName  = get_the_title()?>
+                    <?php ($pageName == 'home') ? $linkSobre = '#sobre' : $linkSobre = get_home_url() . '/#sobre'?>
+                    <?php ($pageName == 'home') ? $linkContato = '#contato' : $linkContato = get_home_url() . '/#contato'?>
+
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_home_url() . '/errrrr'?>"><?php echo $pageName; ?></a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkSobre?>">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkContato?>">Contato</a></li>
                 </ul>
             </div>
         </nav>

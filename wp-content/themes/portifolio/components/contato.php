@@ -37,8 +37,6 @@
                         
                     </div>
                 </div>
-
-                
         </div>
         <div class="col-12 col-md-6">
             <div class="row">
@@ -57,15 +55,12 @@
                     </div>
                 </div>
             </div>
-            
-            
             <div class="col-12 col-md-6">
                 <div class="row">
                     <div class="col-12 titulo-sessao" data-aos="fade-up">
                         <h6><b>Ou mandar um email direto clicando no botão:</b></h6>
                     </div>
                 </div>
-                
                 <div class="cont-social-grande">
                     <div class="row">
                       
@@ -77,28 +72,23 @@
                     </div>
                 </div>
             </div>
-            
             <div class="col-12 col-md-6">
                 <div class="row">    
                     <div class="col-12 titulo-sessao" data-aos="fade-up">
                         <h6><b>Ou mandando para o seguinte endereço:</b></h6>
                     </div>
-                    
                     <div class="cont-social-grande">
                         <div class="row">
-                        
                             <div class="col-12">
                                 <div class="card-social" data-aos="fade-up">
                                     <p class="email-label"><?php echo $GLOBALS['cgv']['email'] ?></p>
                                 </div>
                             </div>
-                            
                             <div class="col-12">
                                 <div class="card-social" data-aos="fade-up">
                                     <button class="btn btn-primary copy" data-clipboard-text="<?php echo $GLOBALS['cgv']['email'] ?>">Copiar Email</button>
                                 </div>
                             </div>
-                                    
                         </div>
                     </div>
                 </div>

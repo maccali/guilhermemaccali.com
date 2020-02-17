@@ -8,7 +8,7 @@
         <div class="row margin-bottom-60">
             <div class="col-12 col-md-4">
             <div class="cont-eu-img" data-aos="fade-up">
-                <?php $foto = get_field("foto", 12); ?>
+                <?php $foto = get_field("foto", get_the_ID()); ?>
                 <img class="eu-img" src="<?php echo $foto['url']?>" alt="<?php echo $foto['alt']?>"></div>
             </div>
             <div class="col-12 col-md-8">
@@ -16,7 +16,7 @@
                     <p class="intro"><b>Seja Bem-Vindo!</b>Meu nome é,</p>
                     <h3 class="nome">Guilherme Maccali</h3>
                     <div class="resto-texto first-letter">
-                        <?php echo get_field("sobre", 12)?>
+                        <?php echo get_field("sobre", get_the_ID())?>
                     </div>
                 </div>
                 <a href="#contato" class="btn btn-primary to-croll" data-aos="fade-up" >Entre em contato</a>
