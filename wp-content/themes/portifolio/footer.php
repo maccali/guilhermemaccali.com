@@ -5,7 +5,7 @@
 <?php get_template_part('components/footer')?>
 
 <!-- JQUARY -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js?v2"></script>
 
 <!-- BOOTSTRAP -->
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
@@ -16,11 +16,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
 <!-- CLIPBOARD -->
-<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js?v2"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
 
 <!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?v2"></script>
 
 <!-- GOOGLE ANALYTICS -->
 <?php echo $GLOBALS['cgv']['google-analytics'] ?>
