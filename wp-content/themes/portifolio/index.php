@@ -8,6 +8,7 @@
     <!-- <?php var_dump(get_field("habilidades"));?> -->
     
     <?php get_template_part('components/sobre')?>
+    <?php get_template_part('components/interesses')?>
     <?php get_template_part('components/skils')?>
     <?php get_template_part('components/curriculo')?>
     <?php get_template_part('components/contato')?>

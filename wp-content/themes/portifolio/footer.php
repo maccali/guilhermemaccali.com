@@ -32,7 +32,40 @@
 <script>
 
   $(document).ready(function(){
-    $(".skils").owlCarousel({
+    $('body').scrollspy({
+        target: ".navbar",
+        offset: 65,
+      })
+    
+    $("#interests").owlCarousel({
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      loop: true,
+      center: true,
+      margin: 40,
+      responsiveClass: true,
+      dots: false,
+      nav: true, 
+      // scrollPerPage: true,
+      items:1,
+      slideBy: 2,
+      responsive:{
+          0:{
+              items:1,
+          },
+          600:{
+              items:3,
+          },
+          1000:{
+              items:6,
+              slideBy: 3,
+              // loop:true
+          }
+      }
+    });
+
+    $("#skils").owlCarousel({
       autoplay: true,
       autoplayTimeout: 5000,
       autoplayHoverPause: true,
@@ -52,9 +85,8 @@
               items:3,
           },
           1000:{
-              items:6,
-              slideBy: 5,
-              // loop:true
+              items:8,
+              slideBy: 4,
           }
       }
     });
@@ -80,6 +112,7 @@
       scrollTop: targetOffset - 50
     }, 500);
 });
+
 
 AOS.init();
 

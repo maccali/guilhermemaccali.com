@@ -11,10 +11,23 @@
                 <ul class="navbar-nav" data-aos="fade-left">
 
                     <?php $pageName  = get_the_title()?>
-                    <?php ($pageName == 'home') ? $linkSobre = '#sobre' : $linkSobre = get_home_url() . '/#sobre'?>
-                    <?php ($pageName == 'home') ? $linkContato = '#contato' : $linkContato = get_home_url() . '/#contato'?>
+                    <?php 
+                        $linkSobre = '#sobre';
+                        $linkContato = '#contato';
+                        $linkInteresses = '#interesses';
+                        $linkCarreira = '#carreira';
+                    
+                        if($pageName != 'home'){
+                            $linkSobre = get_home_url() . '/' . $linkSobre;
+                            $linkContato = get_home_url() . '/' . $linkContato;
+                            $linkInteresses = get_home_url() . '/' . $linkInteresses;
+                            $linkCarreira = get_home_url() . '/' . $linkCarreira;
+                        }
+                    ?>
 
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkSobre?>">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkInteresses?>">Interesses</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkCarreira?>">Carreira</a></li>
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkContato?>">Contato</a></li>
                 </ul>
             </div>

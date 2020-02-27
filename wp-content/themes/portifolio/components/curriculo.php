@@ -1,4 +1,4 @@
-<div class="container-fluid curriculo padding-top-extra">
+<div id="carreira" class="container-fluid escuro">
     <div class="container padding-container">
         <div class="row">
             <div class="col-12 titulo-sessao" data-aos="fade-up">

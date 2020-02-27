@@ -1,11 +1,11 @@
-<div id="sobre" class="container-fluid primary padding-botton-extra">
-    <div class="container padding-container ">
+<div id="sobre" class="container-fluid escuro">
+    <div class="container padding-container">
         <div class="row">
             <div class="col-12 titulo-sessao">
                 <h2 data-aos="fade-up">Sobre</h2>
             </div>
         </div>
-        <div class="row margin-bottom-60">
+        <div class="row">
             <div class="col-12 col-md-4">
             <div class="cont-eu-img" data-aos="fade-up">
                 <?php $foto = get_field("foto", get_the_ID()); ?>
