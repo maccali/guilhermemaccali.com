@@ -620,6 +620,10 @@ p{
     .skils .owl-nav{
         display: none !important;
     }
+    .padding-container{
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
 
  }
 
