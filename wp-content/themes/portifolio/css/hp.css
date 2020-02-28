@@ -486,7 +486,8 @@ p{
 }
 
 .texto-curriculo{
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .texto-curriculo p{
@@ -496,13 +497,6 @@ p{
 .margin-bottom-60{
     margin-bottom: 60px;
 }
-
-/* .skils div {
-    height: 170px;
-}
-.skils.plus div {
-    height: 195px;
-} */
 
 .skils .owl-stage-outer{
     padding-bottom: 15px;
