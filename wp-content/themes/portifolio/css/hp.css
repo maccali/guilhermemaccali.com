@@ -7,7 +7,6 @@
     --facebook-color: #3b5998;
     --whatapp-color: #25d366;
     --instagram-color: #C13584;
-
     --bg-social: #E0E0E0;
     --bg-claro: #f3f3f3;
     --bg-escuro: #EDEDED;
@@ -20,13 +19,13 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
-
 
 h2{
     margin-bottom: 30px;
 }
+
 h6{
     margin-bottom: 25px !important;
 }
@@ -67,8 +66,8 @@ p{
     color: #fff;
     background-color: var(--primary-color);
     border-color: #005cbf;
-
 }
+
 .container-fluid.menu{
     background-color: var(--primary-color);
 }
@@ -99,7 +98,6 @@ p{
     color: #6f4e37
 }
 
-
 .container-fluid.social{
     background-color: var(--bg-social) ;
 }
@@ -111,7 +109,6 @@ p{
 .container-fluid.escuro{
     background-color: var(--bg-escuro);
 }
-
 
 .container-fluid.pagina-vazia{
     background-color: rgb(230, 230, 230);
@@ -161,7 +158,6 @@ p{
     font-weight: bold;
 }
 
-
 .navbar{
     display: flex;
 }
@@ -195,6 +191,12 @@ p{
 .navbar-nav .nav-link:hover {
     border-top: 3px whitesmoke solid ;
     border-bottom: 3px whitesmoke solid ;
+}
+
+.navbar-nav .nav-link.active{
+    border-top: 1px whitesmoke solid ;
+    border-bottom: 1px whitesmoke solid ;
+
 }
 
 .navbar-brand {
@@ -253,6 +255,13 @@ p{
     color: var(--instagram-color);
 }
 
+
+.item-social p{
+    display: inline-block;
+    margin: 0;
+    transition: all .24s;
+}
+
 .cont-eu-img{
     display: flex;
     align-content: center;
@@ -267,8 +276,8 @@ p{
 }
 
 .padding-container{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .padding-botton-zero{
@@ -336,30 +345,85 @@ p{
     transform: scale(1.1) rotate(10deg);
 }
 
-.cont-social-grande a i.fab.fa-github{
+.item-social a i.fab.fa-github{
     color: var(--github-color);
 }
-.cont-social-grande a i.fab.fa-linkedin{
+.item-social a i.fab.fa-linkedin{
     color: var(--linkedin-color);
 }
-.cont-social-grande a i.fab.fa-facebook{
+.item-social a i.fab.fa-facebook{
     color: var(--facebook-color);
 }
-.cont-social-grande a i.fas.fa-envelope{
+.item-social a i.fas.fa-envelope{
     color: var(--primary-color);
 }
-.cont-social-grande a i.fab.fa-whatsapp-square{
+.item-social a i.fab.fa-whatsapp-square{
     color: var(--whatapp-color);
 }
-.cont-social-grande a i.fab.fa-instagram-square{
+.item-social a i.fab.fa-whatsapp{
+    color: var(--whatapp-color);
+}
+.item-social a i.fab.fa-instagram-square{
     color: var(--instagram-color);
+}
+
+.titulo-contato{
+    margin-top: 30px;
+    margin-bottom: 15px !important;
 }
 
 .card-social {
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+.item-social{
+    display: inline-block;
+    margin-bottom: 15px;
+    transition: all .24s;
+}
+
+.item-social:hover a i{
+    transform: scale(1.1) rotate(10deg);
+}
+
+.item-social:hover a p{
+    margin-left: 8px;
+}
+    
+.item-social a i{
+    margin-right: 15px;
+    font-size: 28px;
+    transition: all .24s;
+}
+
+.item-social a p{
+    color: black;
+    transition: all .24s;
+}
+
+.span-inline{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px !important;
+}
+
+.btn.btn-inline{
+    background-color: transparent;
+    border-radius: 45px;
+    font-size: 16px !important;
+    padding: 0 !important;
+    font-weight: bold;
+    transition: all .33s;
+    color: rgba(0,0,0,0.5);
+}
+
+.btn.btn-inline:hover{
+    color: rgba(0,0,0,1);
 }
 
 .toast{
@@ -528,8 +592,6 @@ p{
     background: none repeat scroll 0 0 red ;
     
 }
-
-
 
 @media (max-width: 575.98px) { }
 

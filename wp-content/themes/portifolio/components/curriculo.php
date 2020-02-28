@@ -9,7 +9,7 @@
             <div class="col-12">
                 <div class="texto-curriculo first-letter" data-aos="fade-up">
                     <p>
-                        Você pode conferir mais sobre mim e minha carreira clicando no botão abaixo para ver o meu currículo.
+                        Você pode conferir mais sobre mim e minha carreira </br> clicando no botão abaixo para ver o meu currículo.
                     </p>
                 </div>
             </div>

@@ -11,22 +11,22 @@ function add_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
-function post_type_habilidades(){
-    register_post_type( 'habilidades',
-    array(
-        'labels' => array(
-            'name' => __( 'Habilidades' ),
-            'singular_name' => __( 'Habilidade' )
-        ),
-        'public' => true,
-        'has_archive' => true,
-        'rewrite' => array( 'slug' => 'habilidade' ),
-        'menu_position' => 5,
-        'supports' => array ( 'title', 'editor', 'thumbnail', 'custom-fields' )
-        )
-    );
-}
-add_action ( 'init', 'post_type_habilidades' );
+// function post_type_habilidades(){
+//     register_post_type( 'habilidades',
+//     array(
+//         'labels' => array(
+//             'name' => __( 'Habilidades' ),
+//             'singular_name' => __( 'Habilidade' )
+//         ),
+//         'public' => true,
+//         'has_archive' => true,
+//         'rewrite' => array( 'slug' => 'habilidade' ),
+//         'menu_position' => 5,
+//         'supports' => array ( 'title', 'editor', 'thumbnail', 'custom-fields' )
+//         )
+//     );
+// }
+// add_action ( 'init', 'post_type_habilidades' );
 
 
 ?>
