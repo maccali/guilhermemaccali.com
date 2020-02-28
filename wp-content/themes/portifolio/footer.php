@@ -46,21 +46,27 @@
       margin: 40,
       responsiveClass: true,
       dots: false,
-      nav: true, 
+      nav: true,  
       // scrollPerPage: true,
       items:1,
       slideBy: 2,
       responsive:{
           0:{
-              items:1,
+              items:2,
           },
-          600:{
+          575:{
               items:3,
           },
-          1000:{
-              items:6,
-              slideBy: 3,
-              // loop:true
+          767:{
+              items:4,
+          },
+          991:{
+            items:5,
+            slideBy: 2,
+          },
+          1199:{
+            items:6,
+            slideBy: 3,
           }
       }
     });
@@ -79,14 +85,21 @@
       slideBy: 2,
       responsive:{
           0:{
-              items:1,
-          },
-          600:{
               items:3,
           },
-          1000:{
-              items:8,
-              slideBy: 4,
+          575:{
+              items:4,
+          },
+          767:{
+              items:5,
+          },
+          991:{
+            items:6,
+            slideBy: 3,
+          },
+          1199:{
+            items:7,
+            slideBy: 4,
           }
       }
     });

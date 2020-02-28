@@ -617,6 +617,10 @@ p{
         max-width: 250px
     }
 
+    .skils .owl-nav{
+        display: none !important;
+    }
+
  }
 
 @media (max-width: 991.98px) {
