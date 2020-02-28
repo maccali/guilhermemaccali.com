@@ -85,6 +85,9 @@
       slideBy: 2,
       responsive:{
           0:{
+              items:2,
+          },
+          400:{
               items:3,
           },
           575:{
