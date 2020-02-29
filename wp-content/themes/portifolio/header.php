@@ -15,7 +15,7 @@
         <link rel="profile" href="https://gmpg.org/xfn/11" />
 
         <!-- PWA MANIFEST-->
-        <link rel="manifest" href="/manifest.webmanifest">
+        <link rel="manifest" href="<?php echo get_stylesheet_directory_uri(). '/manifest.webmanifest'?>">
         
         <!-- GOOGLE FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
