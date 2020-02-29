@@ -13,7 +13,13 @@
         <title><?php echo $pageTitle ?></title>
 
         <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+        <!-- PWA MANIFEST-->
+        <link rel="manifest" href="/manifest.webmanifest">
         
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
         <!-- FONTAWESOME -->
         <script src="https://kit.fontawesome.com/cb8d80800e.js" crossorigin="anonymous"></script>
         

@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Arial'), url('https://fonts.googleapis.com/css?family=Montserrat&display=swap ');
+    font-display: swap;
+  }
+
 
 :root{
     --primary-color: #0e2c54;

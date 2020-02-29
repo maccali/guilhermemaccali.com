@@ -1,0 +1,22 @@
+{
+    "short_name": "Maccali",
+    "name": "Guilherme Maccali Portfólio",
+    "description": "Meu portfólio com todo o carinho para vc!",
+    "icons": [
+      {
+        "src": "/img/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#0e2c54",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#0e2c54"
+  }
