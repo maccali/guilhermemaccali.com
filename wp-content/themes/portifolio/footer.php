@@ -126,6 +126,12 @@
 
 AOS.init();
 
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('<?php echo get_stylesheet_directory_uri(). '/sw.js'?>')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+
 </script>
 
 
