@@ -31,6 +31,9 @@
 
         <!-- AOS JS -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- GOOGLE PROPERTY VERIFICATION -->
+        <meta name="google-site-verification" content="HAjlWQjWiA57CNVQ7noJE7H2TfpUTivWdUw5iMCeeXc" />
         
         <?php wp_head(); ?>
     </head>
