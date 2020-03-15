@@ -10,12 +10,14 @@
 
 
 :root{
-    --primary-color: #0e2c54;
+    --primary-color: #0E2C54;
     --github-color: #333;
-    --linkedin-color: #0e76a8;
-    --facebook-color: #3b5998;
-    --whatapp-color: #25d366;
+    --linkedin-color: #0E76A8;
+    --facebook-color: #3B5998;
+    --whatapp-color: #25D366;
     --instagram-color: #C13584;
+    --skype-color: #00AFF0;
+    --gitlab-color: #FC6D27;
     --bg-social: #E0E0E0;
     --bg-claro: #f3f3f3;
     --bg-escuro: #EDEDED;
@@ -237,8 +239,8 @@ p{
 }
 
 .redessociais a{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .redessociais a i{
@@ -262,6 +264,12 @@ p{
 }
 .redessociais a i.fab.fa-instagram-square:hover{
     color: var(--instagram-color);
+}
+.redessociais a i.fab.fa-skype:hover{
+    color: var(--skype-color);
+}
+.redessociais a i.fab.fa-gitlab:hover{
+    color: var(--gitlab-color);
 }
 
 
@@ -374,6 +382,12 @@ p{
 }
 .item-social a i.fab.fa-instagram-square{
     color: var(--instagram-color);
+}
+.item-social a i.fab.fa-skype{
+    color: var(--skype-color);
+}
+.item-social a i.fab.fa-gitlab{
+    color: var(--gitlab-color);
 }
 
 .titulo-contato{

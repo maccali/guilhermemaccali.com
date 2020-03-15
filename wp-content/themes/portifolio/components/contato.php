@@ -26,6 +26,19 @@
                         </div>
                     </div>
                 </div>
+              
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <div class="item-social">
+                            <a href="<?php echo $GLOBALS['cgv']['facebook'] ?>" target="_blank"><i class="fab fa-facebook"></i><p><?php echo $GLOBALS['cgv']['facebook_nome'] ?></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <h6 class="titulo-contato"><b>Veja um pouco de código: </b></h6>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
@@ -36,7 +49,7 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a href="<?php echo $GLOBALS['cgv']['facebook'] ?>" target="_blank"><i class="fab fa-facebook"></i><p><?php echo $GLOBALS['cgv']['facebook_nome'] ?></p></a>
+                            <a href="<?php echo $GLOBALS['cgv']['gitlab'] ?>" target="_blank"><i class="fab fa-gitlab"></i><p><?php echo $GLOBALS['cgv']['gitlab_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
@@ -66,6 +79,18 @@
                         </div>
                         <span class="span-inline">Ou</span>
                         <button class="btn btn-inline copy " data-clipboard-text="<?php echo $GLOBALS['cgv']['email'] ?>">Copie Aqui</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <h6 class="titulo-contato"><b>Conversar comigo no skype:</b></h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <div class="item-social">
+                            <a href="<?php echo $GLOBALS['cgv']['skype'] ?>"><i class="fab fa-skype"></i><p><?php echo $GLOBALS['cgv']['skype_nome'] ?></p></a>
+                        </div>
                     </div>
                 </div>
             </div>
