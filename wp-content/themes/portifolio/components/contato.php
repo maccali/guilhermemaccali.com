@@ -15,14 +15,14 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['linkedin'] ?>" target="_blank"><i class="fab fa-linkedin"></i><p><?php echo $GLOBALS['cgv']['linkedin_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['linkedin'] ?>" target="_blank"><i class="fab fa-linkedin"></i><p><?php echo $GLOBALS['cgv']['linkedin_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['instagram'] ?>" target="_blank"><i class="fab fa-instagram-square"></i><p><?php echo $GLOBALS['cgv']['instagram_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['instagram'] ?>" target="_blank"><i class="fab fa-instagram-square"></i><p><?php echo $GLOBALS['cgv']['instagram_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['facebook'] ?>" target="_blank"><i class="fab fa-facebook"></i><p><?php echo $GLOBALS['cgv']['facebook_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['facebook'] ?>" target="_blank"><i class="fab fa-facebook"></i><p><?php echo $GLOBALS['cgv']['facebook_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
@@ -42,14 +42,14 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['github'] ?>" target="_blank"><i class="fab fa-github"></i><p><?php echo $GLOBALS['cgv']['github_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['github'] ?>" target="_blank"><i class="fab fa-github"></i><p><?php echo $GLOBALS['cgv']['github_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['gitlab'] ?>" target="_blank"><i class="fab fa-gitlab"></i><p><?php echo $GLOBALS['cgv']['gitlab_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['gitlab'] ?>" target="_blank"><i class="fab fa-gitlab"></i><p><?php echo $GLOBALS['cgv']['gitlab_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="item-social" data-aos="fade-up">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['whatsapp'] ?>" target="_blank"><i class="fab fa-whatsapp"></i><p><?php echo $GLOBALS['cgv']['telefone'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['whatsapp'] ?>" target="_blank"><i class="fab fa-whatsapp"></i><p><?php echo $GLOBALS['cgv']['telefone'] ?></p></a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="mailto:<?php echo $GLOBALS['cgv']['email'] ?>"><i class="fas fa-envelope"></i><p><?php echo $GLOBALS['cgv']['email'] ?></p></a>
+                            <a rel="noopener noreferrer" href="mailto:<?php echo $GLOBALS['cgv']['email'] ?>"><i class="fas fa-envelope"></i><p><?php echo $GLOBALS['cgv']['email'] ?></p></a>
                         </div>
                         <span class="span-inline">Ou</span>
                         <button class="btn btn-inline copy " data-clipboard-text="<?php echo $GLOBALS['cgv']['email'] ?>">Copie Aqui</button>
@@ -89,7 +89,7 @@
                 <div class="row">
                     <div class="col-12" data-aos="fade-up">
                         <div class="item-social">
-                            <a rel="external" href="<?php echo $GLOBALS['cgv']['skype'] ?>"><i class="fab fa-skype"></i><p><?php echo $GLOBALS['cgv']['skype_nome'] ?></p></a>
+                            <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['skype'] ?>"><i class="fab fa-skype"></i><p><?php echo $GLOBALS['cgv']['skype_nome'] ?></p></a>
                         </div>
                     </div>
                 </div>

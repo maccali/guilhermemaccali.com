@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="btn-center" data-aos="fade-up">
-                    <a href="<?php echo $GLOBALS['cgv']['curriculo-link'] ?>" target="_blank" class="btn btn-primary to-croll" >Ver meu currículo</a>
+                    <a rel="noopener noreferrer" href="<?php echo $GLOBALS['cgv']['curriculo-link'] ?>" target="_blank" class="btn btn-primary to-croll" >Ver meu currículo</a>
                 </div>
             </div>
         </div>        
