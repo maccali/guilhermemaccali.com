@@ -3,137 +3,28 @@
 <?php get_template_part('components/footer')?>
 
 <!-- JQUARY -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js?v2"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/jquery.min.js?v1'?>"></script>
 
 <!-- BOOTSTRAP -->
-<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/popper.min.js?v1'?>"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/bootstrap.min.js?v1'?>"></script>
 
 <!-- CLIPBOARD -->
-<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js?v2"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script> -->
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/clipboard.min.js?v1'?>"></script>
 
 <!-- AOS JS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?v2"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/aos.min.js?v1'?>"></script>
+
+<!-- OWL CAROUSEL -->
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/owlcarousel.min.js?v1'?>"></script>
 
 <!-- GOOGLE ANALYTICS -->
 <?php echo $GLOBALS['cgv']['google-analytics'] ?>
 
 <?php wp_footer(); ?>
 
-
-<script>
-
-  $(document).ready(function(){
-    $('body').scrollspy({
-        target: ".navbar",
-        offset: 65,
-      })
-    
-    $("#interests").owlCarousel({
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplayHoverPause: true,
-      loop: true,
-      center: true,
-      margin: 40,
-      responsiveClass: true,
-      dots: false,
-      nav: true,  
-      // scrollPerPage: true,
-      items:1,
-      slideBy: 2,
-      responsive:{
-          0:{
-              items:2,
-          },
-          575:{
-              items:3,
-          },
-          767:{
-              items:4,
-          },
-          991:{
-            items:5,
-            slideBy: 2,
-          },
-          1199:{
-            items:6,
-            slideBy: 3,
-          }
-      }
-    });
-
-    $("#skils").owlCarousel({
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplayHoverPause: true,
-      loop: true,
-      center: true,
-      margin: 40,
-      responsiveClass: true,
-      dots: false,
-      nav: true, 
-      scrollPerPage: true,
-      slideBy: 2,
-      responsive:{
-          0:{
-              items:2,
-          },
-          400:{
-              items:3,
-          },
-          575:{
-              items:4,
-          },
-          767:{
-              items:5,
-          },
-          991:{
-            items:6,
-            slideBy: 3,
-          },
-          1199:{
-            items:7,
-            slideBy: 4,
-          }
-      }
-    });
-  });
-
-  bootstrap.Toast.Default.delay = 5000;
-
-  var clip = new ClipboardJS('.copy');
-
-  clip.on("success", function() {
-    $('#email-toast-certo').toast('show')
-  });
-  clip.on("error", function() {
-    $('#email-toast-errado').toast('show')
-  });
-
-  $('.to-croll[href^="#"]').on('click', function(e) {
-	  e.preventDefault();
-    var id = $(this).attr('href'),
-        targetOffset = $(id).offset().top;
-        
-    $('html, body').animate({ 
-      scrollTop: targetOffset - 50
-    }, 500);
-});
-
-
-AOS.init();
-
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('<?php echo get_stylesheet_directory_uri(). '/sw.js'?>')
-           .then(function() { console.log("Service Worker Registered"); });
-}
-
-</script>
-
+<!-- CUSTOM JS -->
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/local.js?v1'?>"></script>
 
 </body>
 </html>

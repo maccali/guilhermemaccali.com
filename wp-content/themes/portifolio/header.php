@@ -12,29 +12,31 @@
 
         <title><?php echo $pageTitle ?></title>
 
+        <!-- RELAÇAO DE LINKS XFN -->
         <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+        <!-- GOOGLE PROPERTY VERIFICATION -->
+        <meta name="google-site-verification" content="HAjlWQjWiA57CNVQ7noJE7H2TfpUTivWdUw5iMCeeXc" />
 
         <!-- PWA MANIFEST-->
         <link rel="manifest" href="<?php echo get_stylesheet_directory_uri(). '/manifest.webmanifest'?>">
         
         <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/googlefonts.min.css?v1'?>">
 
         <!-- FONTAWESOME -->
         <script src="https://kit.fontawesome.com/cb8d80800e.js" crossorigin="anonymous"></script>
         
         <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/bootstrap.min.css?v1'?>">
         
-        <!-- TINYSLIDER -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
-
         <!-- AOS JS -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/aos.min.css?v1'?>">
 
-        <!-- GOOGLE PROPERTY VERIFICATION -->
-        <meta name="google-site-verification" content="HAjlWQjWiA57CNVQ7noJE7H2TfpUTivWdUw5iMCeeXc" />
-        
+        <!-- OWL COAROUSEL-->
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/owl.carousel.min.css?v1'?>">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/owl.theme.default.min.css?v1'?>">
+
         <?php wp_head(); ?>
     </head>
 
