@@ -6,7 +6,7 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0e2c54" />
-        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(). '/img/favicon.ico'?>" />
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(). '/img/favicon.png'?>" />
 
         <?php (get_field('title', get_the_ID()) == '') ? $pageTitle = '404' : $pageTitle = get_field('title', get_the_ID())?>
 
