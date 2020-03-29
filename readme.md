@@ -1,7 +1,7 @@
 ## Meu portfólio
 ---
 
-![alt text](https://github.com/maccali/guilhermemaccali.com/blob/master/wp-content/themes/portifolio/img/icons-192.png)
+![alt text](https://github.com/maccali/guilhermemaccali.com/github.png)
 
 > ---
 > ###### Acesse Aqui: [Meu Portifólio](https://guilhermemaccali.com)
