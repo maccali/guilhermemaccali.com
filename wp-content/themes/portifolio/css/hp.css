@@ -620,6 +620,72 @@ p{
     
 }
 
+.card-projeto{
+    display: block;
+    background-color: #fff ;
+    border-radius: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    transition: all .15s;
+}
+.card-projeto:hover{
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+.card-projeto .img {
+    width: 100%;
+    height: 220px;
+}
+.card-projeto .img img{
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.card-projeto .text-cont{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-projeto .text-cont .nome{
+    font-weight: bold;
+    text-align: center;
+
+}
+.card-projeto .text-cont .nome p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 44px;
+}
+
+.card-projeto .text-cont .descricao{
+    text-align: justify;
+}
+
+.card-projeto .text-cont .descricao p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    height: 110px;
+}
+.card-projeto .text-cont .data{
+    background-color: #f6f6f6;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.card-projeto .text-cont .data p{
+    margin: 0;
+}
+
 @media (max-width: 575.98px) { }
 
 @media (max-width: 767.98px) { 

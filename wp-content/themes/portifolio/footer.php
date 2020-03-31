@@ -18,9 +18,12 @@
 <!-- OWL CAROUSEL -->
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/owlcarousel.min.js?v1'?>"></script>
 
+<!-- MACY MASONRY -->
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/js/macy.js?v1'?>"></script>
+
 <!-- GOOGLE ANALYTICS -->
 <?php echo $GLOBALS['cgv']['google-analytics'] ?>
-
+    
 <?php wp_footer(); ?>
 
 <!-- CUSTOM JS -->
