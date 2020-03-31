@@ -676,10 +676,15 @@ p{
     -webkit-line-clamp: 5;
     height: 110px;
 }
-.card-projeto .text-cont .data{
+.card-projeto .text-cont .techs{
     background-color: #f6f6f6;
-    padding: 5px 20px;
-    border-radius: 15px;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+.card-projeto .text-cont .techs img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
 }
 
 .card-projeto .text-cont .data p{

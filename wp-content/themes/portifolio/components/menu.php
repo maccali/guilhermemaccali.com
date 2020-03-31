@@ -16,6 +16,7 @@
                         $linkContato = '#contato';
                         $linkInteresses = '#interesses';
                         $linkCarreira = '#carreira';
+                        $linkProjetos = get_home_url() . '/projetos';
                     
                         if($pageName != 'home'){
                             $linkSobre = get_home_url() . '/' . $linkSobre;
@@ -28,6 +29,7 @@
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkSobre?>">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkInteresses?>">Interesses</a></li>
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkCarreira?>">Carreira</a></li>
+                    <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkProjetos?>">Projetos</a></li>
                     <li class="nav-item"><a class="nav-link to-croll" href="<?php echo $linkContato?>">Contato</a></li>
                 </ul>
             </div>
