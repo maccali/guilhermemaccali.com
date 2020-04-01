@@ -6,9 +6,9 @@ function add_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 // The custom function MUST be hooked to the init action hook
-add_action( 'init', 'lc_custom_post_projeto' );
+add_action( 'init', 'lc_custom_post_meus_projetos' );
 // A custom function that calls register_post_type
-function lc_custom_post_projeto() {
+function lc_custom_post_meus_projetos() {
  
     // Set the labels, this variable is used in the $args array
     $labels = array(

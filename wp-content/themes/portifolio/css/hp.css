@@ -133,7 +133,7 @@ p{
 
 .container-fluid.pagina-vazia{
     background-color: rgb(230, 230, 230);
-    height: calc( -152px + 100vh) !important;
+    min-height: calc( 100vh - 152px) !important;
 }
 .pagina-vazia .container{
     height: 100%;
@@ -147,11 +147,11 @@ p{
 
 .corpo-vazio{
     width: 100%;
-    height: 100%;
+    height: calc( 100vh - 152px) !important;
 }
 .corpo-vazio .box-zero{
     display: flex;
-    margin-top: -60vh;
+    margin-top: -65vh;
     width: 100%;
     height: 40vh;
 }
@@ -305,6 +305,10 @@ p{
 .padding-container{
     padding-top: 90px;
     padding-bottom: 90px;
+}
+.padding-container2{   
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .padding-botton-zero{
@@ -627,10 +631,12 @@ p{
     margin-top: 18px;
     margin-bottom: 18px;
     transition: all .15s;
+    color: black 
 }
 .card-projeto:hover{
     margin-top: 10px;
     margin-bottom: 26px;
+    color: black;
 }
 .card-projeto .img {
     width: 100%;
